@@ -18,45 +18,67 @@
 			
 	</head>
     <body>
-        <header>
-            <nav>
-                <ul class="navLinks">
-                    <li><a href="Main.html" alt="home button">Home</a></li>
-                    <li><a href="about.html" alt="about page button">About</a></li>
-                    <li><a href="folio.html" alt="portfolio page button">folio</a></li>
-                    <li><a href="contact.html" alt="contact page button">Reach</a></li>
-                    <li><a href="skils.html" alt="skills page button">skils</a></li>
-                </ul>
-                <h4>miami>denver</h4>
-            </nav>
-        </header>
-        <section class="folio">
-            <div class="title">
-                <h4>.02</h4>
-                <h2>Folio</h2>
-            </div>
+        <div class="pgTran1">
+            <header>
+                <nav>
+                    <ul class="navLinks">
+                        <li><a href="Main.html" alt="home button">Home</a></li>
+                        <li><a href="about.html" alt="about page button">About</a></li>
+                        <li><a href="folio.html" alt="portfolio page button">folio</a></li>
+                    </ul>
+                    <h4>miami>denver</h4>
+                </nav>
+            </header>
+            <section class="folio">
+                <div class="title">
+                    <h4>.02</h4>
+                    <h2>Folio</h2>
+                </div>
+                <div class="resume">
+                    <a href="Files/Roberto Bayona.pdf.pdf" download="Resume" id="resume" title="Download my resume" onclick="resFunct()">Res<br>um<br>e</a>
+                    </div>
 
 
-            <ul>
-                <h3>Proj. I</h3>
-                <li class="proj1"></li>
-                <h3>Proj. II</h3>
-                <li class="proj2">
-                    <img src="images/wedding.jpg" alt="wedding page" usemap="#flowermap">
-                    <map name="flowermap">
-                        <area shape="circle" coords="50,60" href="contact.html" alt="image map">
-                    </map>
-                </li>
+                <Section class="projCont">
 
-                <h3>Proj. III</h3>
-                <li class="proj3"></li>
-            </ul>
+                    <div class="projChld">
+                        <h3>Proj. I</h3>
+                        <a href=https://www.thextremexperience.com/ target="_blank" title="link"><div class="proj proj1"></div></a>
+                        <div class="projInfo">
+                            Pharma-Trials.com
+                            <p>i am info about this proj</p>
+                            <p>i am an icon</p>
+                        </div>
+                    </div>
+                    
+                    <div class="projChld">
+                        <h3>Proj. II</h3>
+                        <div class="proj proj2"></div>
+                        <div class="projInfo1">
+                            Janesy-Alvarez.com
+                            <p>i am info about this proj</p>
+                            <p>i am an icon</p>
+                        </div>
+                    </div>
 
-            <a href="contact.html" target="*"><img class="down" title="Contact page" src="images/down.png" alt="contact page"></a>
-        </section>
+                    <div class="projChld">
+                        <h3>Proj. III</h3>
+                        <div class="proj proj3"></div>
+                        <div class="projInfo2">
+                            Viva Medical Group
+                            <p>i am info about this proj</p>
+                            <p>i am an icon</p>
+                        </div>
+                    </div>
+
+                </Section>
+
+                <a href="skils.html" target="*"><img class="down" title="skils page" src="images/down.png" alt="contact page"></a>
+            </section>
+        </div>
 
 
 
-
+        <script src="actions.js"></script>
     </body>
 </html>

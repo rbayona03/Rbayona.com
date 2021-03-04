@@ -1,0 +1,105 @@
+.about {
+  display: inline-block;
+  position: relative;
+  top: 10vh;
+  transform: translateX(15%);
+  width: 86%;
+}
+
+.about h4 {
+  line-height: 10%;
+  position: relative;
+  top: 5vh;
+}
+
+.about h2 {
+  line-height: 10px;
+}
+
+.about p {
+  box-sizing: content-box;
+  width: 45%;
+  font-size: 18px;
+  position: relative;
+  left: 10vw;
+}
+
+.about p::first-letter {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+}
+
+span {
+  padding-left: 25px;
+}
+
+.lnks {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.lnks li {
+  margin: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: bold;
+  letter-spacing: 1.5px;
+}
+
+.lnks a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lnks li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  transition: width 300ms;
+  background-color: whitesmoke;
+}
+
+.lnks li:hover::after {
+  width: 16%;
+  transition: width 300ms;
+}
+
+.values {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  right: 15%;
+  width: 45%;
+}
+
+.values h2 {
+  position: relative;
+  justify-content: right;
+  text-align: right;
+  border-bottom: 2px solid #7d2222;
+}
+
+.values li {
+  list-style: none;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.values li:first-child {
+  margin-right: 15px;
+}
+
+.right {
+  position: absolute;
+  height: 60px;
+  top: 19%;
+  left: -2%;
+  cursor: pointer;
+}
