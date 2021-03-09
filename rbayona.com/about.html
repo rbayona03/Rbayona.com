@@ -10,6 +10,7 @@
 		<meta name="viewport" content="width=device-width,intial-scale=1" />
 		<meta name="author" content="roberto Bayona" />
         <link rel="stylesheet" href="Stylesheet.css"/>
+        <link rel="stylesheet" href="mobile.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
     
@@ -20,12 +21,23 @@
         <header>
             <nav>
                 <ul class="navLinks">
-                    <li><a href="Main.html" >Home</a></li>
+                    <li><a href="index.html" >Home</a></li>
                     <li><a href="about.html" >About</a></li>
                     <li><a href="folio.html" >folio</a></li>
                 </ul>
                 <h4>miami>denver</h4>
             </nav>
+            <aside class="sideBar">
+                <div class="hamMenu" onclick="toggleNav()"><img src="/images/iconmonstr-menu-5-64.png" alt=""></div>
+                <ul class="asideLinks">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="folio.html" >folio</a></li>
+                    <li><a href="mailto:rbayona03@gmail.com" title="Email Roberto Directly"><i class="fas fa-envelope-open-text"></i>email</a></li>
+                    <li><a href="https://github.com/rbayona03/" target="_blank" title="Repository"><i class="fab fa-github"></i>Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/robertobayona03/" target="_blank" title="Buisness casual"><i class="fab fa-linkedin"></i>linkedIn</a></li>
+                </ul>
+            </aside>
         </header>
         <!--Header ends-->
         <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="far fa-caret-square-up"></i></button>
